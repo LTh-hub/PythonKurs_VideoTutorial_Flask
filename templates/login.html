@@ -1,0 +1,16 @@
+<!--    new.html
+    This file are called by:
+            FlaskTut04_http_methods_GET_POST.py
+            FlaskTut05_Sessions.py
+            base.html
+-->
+{% extends "base.html" %}
+{% block title %}Login page{% endblock %}
+
+{% block content %}
+<form action="#" method="post">
+    <p>Name:</p>
+    <p><input type="text" name="nm"/></p>
+    <p><input type="submit" value="submit"/></p>
+</form>
+{% endblock %}
