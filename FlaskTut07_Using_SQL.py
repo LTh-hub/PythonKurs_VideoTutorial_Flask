@@ -47,7 +47,7 @@ def login():
             flash("Already logged in!")
             return redirect(url_for("user"))
         
-        return render_template("login_7.html")
+        return render_template("login_6.html")
 
 
 @app.route("/user", methods=["POST", "GET"])
